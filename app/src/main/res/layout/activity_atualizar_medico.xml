@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.atualizar_medico">
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="atualizarMedico"
+        android:text="Salvar"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="211dp"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="387dp"
+        android:layout_height="26dp"
+        android:text="Especialidade"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <EditText
+        android:id="@+id/editMedico"
+        android:layout_width="385dp"
+        android:layout_height="44dp"
+        android:hint="Nome do Médico"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Spinner
+        android:id="@+id/spinnerEspecialidade"
+        android:layout_width="374dp"
+        android:layout_height="44dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <EditText
+        android:id="@+id/editCRM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="CRM"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="139dp" />
+</LinearLayout>

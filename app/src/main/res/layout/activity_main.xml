@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="activity.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista de Medicos:"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="380dp"
+        android:layout_height="72dp"
+        android:text="Novo Médico"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnNovaEspecialidade"
+        android:layout_width="380dp"
+        android:layout_height="69dp"
+        android:text="Nova Especialidade"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ListView
+        android:id="@+id/listaMedicos"
+        android:layout_width="372dp"
+        android:layout_height="302dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+</LinearLayout>
